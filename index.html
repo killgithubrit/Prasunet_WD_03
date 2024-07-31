@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="homePage" class="page">
+    <h1>Tic-Tac-Toe</h1>
+    <p>- By Neelesh</p>
+    <button id="letsPlayButton">Let's Play</button>
+  </div>
+  
+  <div id="modeSelection" class="page">
+    <h2>Select Game Mode</h2>
+    <button id="twoPlayerButton">2 Player Game</button>
+    <button id="aiPlayerButton">Player vs AI</button>
+    <button id="backHomeButton">Back</button>
+  </div>
+  
+  <div id="board" class="page">
+    <div id="statusText">Player X's Turn</div>
+    <div class="board-row">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    <div class="board-row">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    <div class="board-row">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    <button id="backButton">Back</button>
+  </div>
+  
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
